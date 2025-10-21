@@ -16,3 +16,32 @@ Form validation
 6. number
 
  Html Table
+ 21/10/2025
+scroll
+
+ Internal css
+
+ <style> 
+ p{
+    background color : #ffff;
+
+
+ }
+ h1{
+
+ }
+ </style>
+ External css
+ <link rel ="stylesheet" href ="style.css">
+ Inline css
+
+
+selector
+element selector
+class selector
+.class{
+styles
+}
+#{
+    
+}

@@ -1,0 +1,16 @@
+div{
+    color: blueviolet;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    text-align:end;
+}
+section{
+background: scroll;
+}
+.h1-first{
+    color: beige;
+}
+#h2-id{
+    color: aqua;
+}
