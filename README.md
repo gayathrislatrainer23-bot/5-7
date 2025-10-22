@@ -45,3 +45,12 @@ styles
 #{
     
 }
+
+1. box model
+2. css units
+height : 100px
+em ---> relative position of the parent's unit
+rem ---> related to root
+vh /vw - viewpoint ht/w
+full window height --> 100vh
+full window width --> 100vw
