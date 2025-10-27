@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            position: fixed;
+            z-index:999;
+            background-color: rgb(160, 160, 172);
+        }
+        /* .msg{
+             z-index:999;
+        } */
+        .chat-box
+        {
+            width:250px;
+           height: 100px;
+           background-color: azure;
+           border: 2px solid gray;
+           padding: 10px;
+           overflow-y:auto;
+        }
+        .popup{
+            background-color: rgb(42, 165, 48);
+            border-radius: 40%;
+            position: fixed;
+            top: 15px;
+            left: 50px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+        <div class="navbar">My App
+   <a href="https://online.kfc.co.in/">kfc</a>
+        </div>
+    <div class="chat-box">
+        <p class="msg">msg1</p>
+        <p class="msg">msg2</p>
+        <p class="msg">msg3</p>
+        <p class="msg">msg4</p>
+        <p class="msg">msg4</p>
+        <p class="msg">msg4</p>
+        <p class="msg">msg4</p>
+      
+    </div>
+    <div class="popup">New msg</div>
+</body>
+</html>

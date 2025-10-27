@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .log img {
+            width: 3em;
+            height: 3em;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .navbar {
+            height: 70px;
+            width: 100vw;
+            background-color: rgb(211, 208, 204);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+        }
+
+        .nav-link {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            gap: 1.8em;
+        }
+
+        .nav-link a {
+            text-decoration: none;
+            color: rgb(238, 239, 233);
+        }
+
+        .log {
+            margin-left: 10px;
+        }
+
+        .btn {
+            margin-right: 20px;
+            width: 8em;
+            height: 2em;
+            border: none;
+            border-radius: 8%;
+            color: rgb(199, 201, 193);
+            background-color: rgb(141, 165, 59);
+        }
+
+        .container {
+            width: 90vw;
+            height: 90vh;
+            background-color: rgb(205, 255, 208);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            /* align-items: center; */
+
+        }
+
+        .child {
+            width: 5em;
+            height: 5em;
+            background-color: blueviolet;
+        }
+
+        .big-container {
+            /* margin-top: 10px; */
+            background-color: rgb(158, 139, 176);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="log">
+            <img src="https://create.microsoft.com/_next/image?url=https%3A%2F%2Fcdn.create.microsoft.com%2Fcmsassets%2FLogoDesign-01-Starbucks.webp&w=1920&q=75"
+                alt="">
+        </div>
+        <ul class="nav-link">
+            <li><a href="#">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contacts</a></li>
+
+        </ul>
+        <button class="btn">Search</button>
+    </nav>
+    <div class="big-container">
+
+        <div class="container">
+            <div class="child">hello</div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+        </div>
+        <div class="container">
+            <div class="child">hello</div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+        </div>
+        <div class="container">
+            <div class="child">hello</div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+        </div>
+        <div class="container">
+            <div class="child">hello</div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+        </div>
+    </div>
+    <div class="app"></div>
+    <div class="app"></div>
+    <div class="app"></div>
+    <div class="app">apple</div>
+</body>
+
+</html>
