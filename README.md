@@ -45,7 +45,7 @@ styles
 #{
     
 }
-
+22/10/2025
 1. box model
 2. css units
 height : 100px
@@ -54,3 +54,12 @@ rem ---> related to root
 vh /vw - viewpoint ht/w
 full window height --> 100vh
 full window width --> 100vw
+
+23/10/2025
+flex
+
+24/10/2025
+Navbar
+
+27/10/2025
+display inline ,z-index, position
